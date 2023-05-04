@@ -1,0 +1,83 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+.utama {
+	max-width:1080px;
+	margin: 20px auto;
+	background-color: green;
+	overflow: hidden;
+	height:100%;
+	
+}
+
+body {
+	background:green;
+}
+
+.kiri {
+	width: 75%;
+	float:left;
+	background:white;
+	padding:10px
+	
+}
+
+.kanan {
+	width: 25%;
+	float: left;
+	background:lightblue;
+	height:743px;
+	padding:10px;
+	
+}
+
+header {
+	background-color: red;
+	color: whitesmoke;
+	padding: 40px;
+}
+	
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: sandybrown;
+	font-size: 20px;
+	font-weight: bold;
+}
+	
+
+.navigasi li {
+	float:left;
+}
+
+.navigasi li a {
+	color: whitesmoke;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+
+footer {
+	background-color: blue;
+	color: whitesmoke;
+	padding: 20px;
+	clear:both;	
+	text-align:center;
+}
+
+.gambar img{
+	
+	width:100%;
+	
+}
+
+.list ol {
+	margin-left:40px;
+}
